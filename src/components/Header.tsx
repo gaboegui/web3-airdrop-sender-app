@@ -9,7 +9,7 @@ export function Header() {
       <div className="flex items-center space-x-4">
         <h1 className="text-xl font-bold">AirDrop Sender App</h1>
         <a
-          href="https://github.com/gaboegui"
+          href="https://github.com/gaboegui/web3-airdrop-sender-app"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-400 hover:underline"
