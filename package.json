@@ -1,0 +1,38 @@
+{
+  "name": "airdrop-sender-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "anvil": "anvil --load-state tsender-deployed.json",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.2.9",
+    "@tanstack/react-query": "^5.90.7",
+    "next": "16.0.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-icons": "^5.5.0",
+    "viem": "^2.38.6",
+    "wagmi": "^2.19.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@synthetixio/synpress": "^4.1.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^5.1.0",
+    "babel-plugin-react-compiler": "1.0.0",
+    "jsdom": "^27.1.0",
+    "patch-package": "^8.0.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^4.0.8"
+  }
+}
